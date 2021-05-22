@@ -1,117 +1,143 @@
 @font-face {
-    font-family: "RobotoTh";
-    src: url("../../fonts/Roboto-Thin.woff2") format("woff2"),
-      url("../../fonts/Roboto-Thin.woff") format("woff");
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "RobotoMI";
-    src: url("fonts/Roboto-MediumItalic.woff2") format("woff2"),
-      url("fonts/Roboto-MediumItalic.woff") format("woff");
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "Roboto Condensed";
-    src: url("fonts/RobotoCondensed-Regular.woff2") format("woff2"),
-      url("fonts/RobotoCondensed-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "RobotoL";
-    src: url("../../fonts/Roboto-Light.woff2") format("woff2"),
-      url("../../fonts/Roboto-Light.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "RobotoBI";
-    src: url("../font/Roboto-BoldItalic.woff2") format("woff2"),
-      url("../font/Roboto-BoldItalic.woff") format("woff");
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "RobotoThI";
-    src: url("../font/Roboto-ThinItalic.woff2") format("woff2"),
-      url("../font/Roboto-ThinItalic.woff") format("woff");
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "RobotoM";
-    src: url("../font/Roboto-Medium.woff2") format("woff2"),
-      url("../font/Roboto-Medium.woff") format("woff");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "RobotoBl";
-    src: url("../font/Roboto-Black.woff2") format("woff2"),
-      url("../font/Roboto-Black.woff") format("woff");
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "Arial Narrow";
-    src: url("../font/ArialNarrow.woff2") format("woff2"),
-      url("../font/ArialNarrow.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "Roboto CondensedL";
-    src: url("../font/RobotoCondensed-Light.woff2") format("woff2"),
-      url("../font/RobotoCondensed-Light.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "RobotoB";
-    src: url("../../fonts/Roboto-Bold.woff2") format("woff2"),
-      url("../fonts/Roboto-Bold.woff") format("woff");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "RobotoR";
-    src: url("../../fonts/Roboto-Regular.woff2") format("woff2"),
-      url("../../font/Roboto-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "Roboto Condensed";
-    src: url("../font/RobotoCondensed-Bold.woff2") format("woff2"),
-      url("../font/RobotoCondensed-Bold.woff") format("woff");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-  }
-  
+  font-family: "Museo Sans 500";
+  src: url("../../fonts/MuseoSans-500.woff2") format("woff2"),
+    url("../../fonts/MuseoSans-500.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PoppinsR";
+  src: url("../../fonts/Poppins-Regular.woff2") format("woff2"),
+    url("../../fonts/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open SansEBI";
+  src: url("../../fonts/OpenSans-ExtraboldItalic.woff2") format("woff2"),
+    url("../../fonts/OpenSans-ExtraboldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open SansI";
+  src: url("../../fonts/OpenSans-Italic.woff2") format("woff2"),
+    url("../../fonts/OpenSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../fonts/OpenSans.woff2") format("woff2"),
+    url("../../fonts/OpenSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open SansSB";
+  src: url("../../fonts/OpenSans-Semibold.woff2") format("woff2"),
+    url("../../fonts/OpenSans-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open SansB";
+  src: url("../../fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("../../fonts/OpenSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open SansLI";
+  src: url("../../fonts/OpenSansLight-Italic.woff2") format("woff2"),
+    url("../../fonts/OpenSansLight-Italic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PoppinsM";
+  src: url("../../fonts/Poppins-Medium.woff2") format("woff2"),
+    url("../../fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open SansSBI";
+  src: url("../../fonts/OpenSans-SemiboldItalic.woff2") format("woff2"),
+    url("../../fonts/OpenSans-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open SansBI";
+  src: url("OpenSans-BoldItalic.woff2") format("woff2"),
+    url("OpenSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open SansEB";
+  src: url("OpenSans-Extrabold.woff2") format("woff2"),
+    url("OpenSans-Extrabold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PoppinsL";
+  src: url("../../fonts/Poppins-Light.woff2") format("woff2"),
+    url("../../fonts/Poppins-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open SansL";
+  src: url("../../fonts/OpenSans-Light.woff2") format("woff2"),
+    url("../../fonts/OpenSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PoppinsSB";
+  src: url("../../fonts/Poppins-SemiBold.woff2") format("woff2"),
+    url("../../fonts/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PoppinsB";
+  src: url("../../fonts/Poppins.woff2") format("woff2"),
+    url("../../fonts/Poppins.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,52 @@
+$pr-1: #03a9f4;
+$pr-2: #f75e2e;
+$pr-3: #ecfa4d;
+$pr-4: #656a70;
+
+$light: #fff;
+$dark: #000;
+
+$l-11: mix($light, $pr-1, 40%);
+$l-12: mix($light, $pr-2, 40%);
+$l-13: mix($light, $pr-3, 40%);
+$l-14: mix($light, $pr-4, 40%);
+
+$l-21: mix($light, $pr-1, 70%);
+$l-22: mix($light, $pr-2, 70%);
+$l-23: mix($light, $pr-3, 70%);
+$l-24: mix($light, $pr-4, 70%);
+
+$l-31: mix($light, $pr-1, 90%);
+$l-32: mix($light, $pr-2, 90%);
+$l-33: mix($light, $pr-3, 90%);
+$l-34: mix($light, $pr-4, 90%);
+
+$d-11: mix($dark, $pr-1, 20%);
+$d-12: mix($dark, $pr-2, 20%);
+$d-13: mix($dark, $pr-3, 20%);
+$d-14: mix($dark, $pr-4, 20%);
+
+$d-21: mix($dark, $pr-1, 50%);
+$d-22: mix($dark, $pr-2, 50%);
+$d-23: mix($dark, $pr-3, 50%);
+$d-24: mix($dark, $pr-4, 50%);
+
+$d-31: mix($dark, $pr-1, 70%);
+$d-32: mix($dark, $pr-2, 70%);
+$d-33: mix($dark, $pr-3, 70%);
+$d-34: mix($dark, $pr-4, 70%);
+
+/* Typography */
+$font-size: 100%;
+$ratio: 1.333;
+
+/* Calculate values */
+$font-size: 15px;
+
+$h6: $font-size;
+$h5: $h6 + 2;
+$h4: $h5 + 5 ;
+$h3: $h4 + 5;
+$h2: $h3 + 6 ;
+$h1: $h2 + 2;
+
