@@ -15,33 +15,35 @@
         border-color: mix($light, $d-24, 70%);
         color: white;
     }
+
+    &.small {
+        height: 30px;
+        line-height: 30px;
+        padding: 0;
+        width: $width * 0.7;
+    }
 }
 
 .btn1 {
     @include base-btn($pr-2, 100px);
-    width: 100px;
 }
 
 .btn2 {
     @include base-btn($pr-1, 100px);
-    width: 100px;
 }
 
 .btn3 {
     @include base-btn($pr-1, 130px);
-    width: 100px;
 }
 
 .btn4 {
     @include base-btn($pr-2, 100px);
     background-color: white;
     color: $pr-2;
-    width: 100px;
 }
 
 .btn5 {
     @include base-btn($pr-1, 100px);
     background-color: white;
     color: $pr-1;
-    width: 100px;
 }

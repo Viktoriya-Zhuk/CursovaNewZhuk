@@ -1,0 +1,16 @@
+.tabs-wrapper {
+  display: flex;
+  width: 100%;
+
+  .tab-item {
+    color: $l-24;
+    padding: 10px;
+    border-bottom: 2px solid $l-24;
+    min-width: 50px;
+
+    &.active {
+      color: $pr-2;
+      border-bottom: 3px solid $pr-2;
+    }
+  }
+}

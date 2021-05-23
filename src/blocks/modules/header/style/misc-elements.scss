@@ -1,0 +1,97 @@
+$dotted-radius: 9px;
+$simple-radius: 18px;
+
+@mixin base-social-icon($bg-color) {
+  color: $bg-color;
+
+//   &.hover {
+//     background-color: mix($light, $bg-color, 70%);
+//     border-color: mix($light, $bg-color, 70%);
+//     color: white;
+//   }
+
+  &.disabled {
+    color: $d-14;
+  }
+
+//   &.small {
+//     height: 30px;
+//     line-height: 30px;
+//     padding: 0;
+//     width: $width * 0.7;
+//   }
+}
+
+.social-icon {
+  margin: 0 15px;
+
+  &.fa-facebook-f {
+    @include base-social-icon($d-31);
+  }
+
+  &.fa-twitter {
+    @include base-social-icon($pr-1);
+  }
+
+  &.fa-pinterest {
+    @include base-social-icon(red);
+  }
+
+  &.fa-google-plus-g {
+    @include base-social-icon($pr-2);
+  }
+}
+
+.paginator-simple {
+  display: flex;
+  font-size: 12px;
+  color: $d-14;
+
+  .paginator-item {
+    width: $simple-radius;
+    height: $simple-radius;
+    margin: 0 8px;
+    text-align: center;
+
+    &.active {
+      border-radius: 50%;
+      background-color: $pr-1;
+      border-color: white;
+      color: white;
+    }
+  }
+
+  .left-arrow {
+    margin-right: 20px;
+  }
+
+  .right-arrow {
+    margin-left: 20px;
+  }
+}
+
+.paginator-dotted {
+  display: flex;
+  font-size: 12px;
+  color: $d-14;
+
+  .paginator-item {
+    border: 1px solid $d-14;
+    width: $dotted-radius;
+    height: $dotted-radius;
+    background-color: $d-14;
+    margin: 5px 20px;
+    border-radius: 50%;
+
+    &.active {
+      background-color: white;
+      border-color: $pr-1;
+    }
+  }
+}
+
+.information-popup {
+  border: 1px solid $d-14;
+  color: $d-14;
+  padding: 10px;
+}
