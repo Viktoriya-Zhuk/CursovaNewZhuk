@@ -1,25 +1,36 @@
 $dotted-radius: 9px;
 $simple-radius: 18px;
+$big-radius: 35px;
+
+@mixin bordered-icon {
+  width: $big-radius;
+  height: $big-radius;
+  line-height: $big-radius;
+  border-radius: 50%;
+  text-align: center;
+}
 
 @mixin base-social-icon($bg-color) {
   color: $bg-color;
 
-//   &.hover {
-//     background-color: mix($light, $bg-color, 70%);
-//     border-color: mix($light, $bg-color, 70%);
-//     color: white;
-//   }
+  &.bordered {
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    @include bordered-icon;
+  }
+
+  &.inverted {
+    background-color: $d-11;
+    color: white;
+    border: 1px solid $d-11;
+    @include bordered-icon;
+  }
+
 
   &.disabled {
     color: $d-14;
   }
-
-//   &.small {
-//     height: 30px;
-//     line-height: 30px;
-//     padding: 0;
-//     width: $width * 0.7;
-//   }
 }
 
 .social-icon {
@@ -40,6 +51,11 @@ $simple-radius: 18px;
   &.fa-google-plus-g {
     @include base-social-icon($pr-2);
   }
+}
+
+.selected-icon-wrapper {
+  background-color: $l-11;
+  padding: 20px 10px;
 }
 
 .paginator-simple {

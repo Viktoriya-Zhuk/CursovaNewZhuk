@@ -64,6 +64,26 @@
   font-family: "PoppinsR";
   font-size: $list-style;
   color: $d-14;
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    &::before {
+      content: "\2713";
+      color: white;
+      background: $l-11;
+      width: 14px;
+      height: 14px;
+      margin-right: 15px;
+      border-radius: 50%;
+      font-size: 10px;
+      line-height: 17px;
+      font-weight: bolder;
+      display: inline-block;
+      text-align: center;
+    }
+  }
 }
 
 .quotation {
@@ -71,6 +91,12 @@
   font-size: $quotation;
   color: $d-11;
   background-color: $l-21;
-  border-left: 1px solid $d-11;
+  border-left: 2px solid $d-11;
   padding-left: 15px;
+}
+
+.text-block-wrapper {
+  .quotation {
+    width: 300px;
+  }
 }
