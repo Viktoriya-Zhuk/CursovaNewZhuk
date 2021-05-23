@@ -28,18 +28,49 @@
   color: $d-24;
   font-family: "PoppinsM";
 }
+.header-2:hover {
+  background-color: $pr-1;
+  color: #fff;
+}
 
 .header-1 {
   font-size: $h1;
   color: $d-34;
   font-family: "PoppinsB";
-  //   font-size: 35px;
 }
 
 .label {
-    color: $l-14;
+  color: $d-14;
 }
 
 .discription-text-content {
-    color: $l-14;
+  color: $l-14;
+  font-size: $paragraph;
+}
+
+.paragraph {
+  font-family: "PoppinsR";
+  font-size: $paragraph;
+  color: $d-14;
+}
+
+.subtitle {
+  font-family: "PoppinsR";
+  font-size: $subtitle;
+  color: $d-14;
+}
+
+.list-style {
+  font-family: "PoppinsR";
+  font-size: $list-style;
+  color: $d-14;
+}
+
+.quotation {
+  font-family: "PoppinsR";
+  font-size: $quotation;
+  color: $d-11;
+  background-color: $l-21;
+  border-left: 1px solid $d-11;
+  padding-left: 15px;
 }
