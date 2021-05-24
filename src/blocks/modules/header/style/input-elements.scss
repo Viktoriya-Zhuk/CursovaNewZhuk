@@ -36,9 +36,13 @@ $chose-input-size: 20px;
     top: -$chose-input-size / 2;
     left: -$chose-input-size / 2;
     text-align: center;
-    // border-radius: 50%;
+
     @if $type != 'checkbox' {
       border-radius: 50%;
+      background-color: white;
+      color: $bg-color;
+      line-height: $chose-input-size * 0.5;
+      font-size: $chose-input-size * 1.4;
     }
   }
 }
@@ -53,11 +57,11 @@ input[type="radio"] {
   }
 
   &.selected {
-    @include check-box-base("\2713", $pr-1, $pr-1, 'radio');
+    @include check-box-base("\25CF", $pr-1, $pr-1, 'radio');
   }
 
   &.disabled {
-    @include check-box-base("\2713", $l-24, $l-24, 'radio');
+    @include check-box-base("\25CF", $l-24, $l-24, 'radio');
   }
 }
 

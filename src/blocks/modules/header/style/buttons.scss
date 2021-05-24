@@ -24,26 +24,28 @@
     }
 }
 
+$standart-btn: 200px;
+
 .btn1 {
-    @include base-btn($pr-2, 100px);
+    @include base-btn($pr-2, $standart-btn);
 }
 
 .btn2 {
-    @include base-btn($pr-1, 100px);
+    @include base-btn($pr-1, $standart-btn);
 }
 
 .btn3 {
-    @include base-btn($pr-1, 130px);
+    @include base-btn($pr-1, $standart-btn * 1.3);
 }
 
 .btn4 {
-    @include base-btn($pr-2, 100px);
+    @include base-btn($pr-2, $standart-btn);
     background-color: white;
     color: $pr-2;
 }
 
 .btn5 {
-    @include base-btn($pr-1, 100px);
+    @include base-btn($pr-1, $standart-btn);
     background-color: white;
     color: $pr-1;
 }

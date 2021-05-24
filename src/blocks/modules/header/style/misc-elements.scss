@@ -55,6 +55,9 @@ $big-radius: 35px;
 .selected-icon-wrapper {
   background-color: $l-11;
   padding: 20px 10px;
+  .row {
+    justify-content: space-between;
+  }
 }
 
 .paginator-simple {
