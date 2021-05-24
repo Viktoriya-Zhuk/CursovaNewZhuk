@@ -27,7 +27,6 @@ $big-radius: 35px;
     @include bordered-icon;
   }
 
-
   &.disabled {
     color: $d-14;
   }
@@ -61,12 +60,12 @@ $big-radius: 35px;
 .paginator-simple {
   display: flex;
   font-size: 12px;
-  color: $d-14;
+  width: 300px;
+  justify-content: space-around;
 
   .paginator-item {
     width: $simple-radius;
     height: $simple-radius;
-    margin: 0 8px;
     text-align: center;
 
     &.active {
@@ -90,13 +89,14 @@ $big-radius: 35px;
   display: flex;
   font-size: 12px;
   color: $d-14;
+  width: 300px;
+  justify-content: space-around;
 
   .paginator-item {
     border: 1px solid $d-14;
     width: $dotted-radius;
     height: $dotted-radius;
     background-color: $d-14;
-    margin: 5px 20px;
     border-radius: 50%;
 
     &.active {
