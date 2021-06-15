@@ -17,10 +17,11 @@
     }
 
     &.small {
-        height: 30px;
+        height: 40px;
         line-height: 30px;
         padding: 0;
-        width: $width * 0.7;
+        width: $width * 0.5;
+        text-transform: uppercase;
     }
 }
 

@@ -12,6 +12,11 @@ $chose-input-size: 20px;
   color: $pr-4;
 }
 
+@mixin dropdown-nav {
+  background-color: $pr-1;
+  color: white;
+}
+
 @mixin active-input {
   border: 1px solid $l-11;
   background-color: white;
@@ -97,6 +102,10 @@ input.hover {
 
 .dropdown-hover {
   @include hover-input;
+}
+
+.dropdown-nav {
+  @include dropdown-nav;
 }
 
 input.active {
